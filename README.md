@@ -21,7 +21,7 @@ O site é dividido em três seções principais, cada uma representada por um wi
    - Lista das habilidades do usuário com ícones representativos.
 
 3. **Widget 3 (Rodapé)**
-   - Descreve os serviços oferecidos pelo usuário.
+   - Descreve as Formações do usuario 
    - Informações de contato com um botão para iniciar uma conversa.
 
 
@@ -29,15 +29,6 @@ O site é dividido em três seções principais, cada uma representada por um wi
 
 - [FontAwesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css): Biblioteca de ícones usada no site.
 - [Google Fonts - Open Sans](https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap): Fonte principal utilizada no site.
-
-## Contribuição
-
-Se você quiser contribuir com melhorias para este template, sinta-se à vontade para abrir um pull request ou relatar problemas na seção de issues.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para obter mais informações.
-
 ---
 
 Feito com ❤️ por @Pedro Henrique Carneichuk Rosa

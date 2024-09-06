@@ -92,6 +92,10 @@ body {
     border-radius: 10px;
 }
 
+.img-user img:hover{
+    transform: scale(1.02);
+}
+
 .info-user {
     display: flex;
     flex-direction: column;
@@ -166,6 +170,9 @@ body {
     text-align: center;
     padding-top: 1rem;
 }
+.btn-projeto:hover{
+    transform: scale(1.1);
+}
 
 .btn {
     background-color: var(--color-destaque);
@@ -212,6 +219,7 @@ body {
 
 .box-social i:hover {
     color: darkturquoise;
+    transform: scale(1.1);
 }
 
 .box-social i {
@@ -264,30 +272,43 @@ body {
 /* Cores específicas para cada ícone das skills*/
 .skills-icons .fa-html5:hover {
     color: #e34f26;
+    transform: scale(1.2);
 }
 
 .skills-icons .fa-css3-alt:hover {
     color: #1572b6;
+        transform: scale(1.2);
+
 }
 
 .skills-icons .fa-js:hover {
     color: #f7df1e;
+    transform: scale(1.2);
+
 }
 
 .skills-icons .fa-java:hover {
     color: #e34f26;
+    transform: scale(1.2);
+
 }
 
 .skills-icons .fa-github:hover {
     color: #101010;
+    transform: scale(1.2);
+
 }
 
 .skills-icons .fa-docker:hover {
     color: #1d2adf;
+    transform: scale(1.2);
+
 }
 
 .skills-icons .fa-database:hover {
     color: aquamarine;
+    transform: scale(1.2);
+
 }
 
 
@@ -355,9 +376,12 @@ body {
     padding: 1rem;
 }
 
-.item-servico i {
-    font-size: 3rem;
+.item-servico i{
     color: var(--color-destaque);
+}
+
+.item-servico:hover{
+    transform: scale(1.05);
 }
 
 .item-servico span {
@@ -400,11 +424,40 @@ body {
     gap: .5rem;
 }
 
-.lista-contato a {
-    color: #999999;
+.lista-contato ul {
+    color: white;
     text-decoration: none;
     font-weight: 600;
 }
+
+.lista-contato Li:hover {
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}
+
+.lista-contato h3, h4{
+    color: rgb(167, 167, 167);
+
+}
+lista-contato h3, h4:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.05); 
+    cursor: pointer;
+
+}
+
+
+
+.lista-contato span {
+    color: rgb(124, 124, 124);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
 
 
 
